@@ -1,0 +1,131 @@
+.flatDetailsDiv{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    
+}
+
+.detailsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.detailsHeader{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.detailsInfo{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+}
+
+
+
+.messagesDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.messagesHeader{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.allMessages{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+
+.message{
+    width: 10rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.messageContent{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    /* width: 100%; */
+    word-wrap: break-word;
+}
+
+.messageTime, .messageSender{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    font-size: 12px;
+}
+
+.allMessages > p{
+    font-family: 'Comfortaa';
+    color: #4088a7;
+}
+
+.sendMessageBox::placeholder{
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    text-align: center;
+}
+
+.sendMessageDiv{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10%; */
+    height: 15%;
+    align-items: center;
+
+}
+
+.sendMessageBox{
+    height: 60px;
+    width: 300px;
+    border: solid;
+    border-color: #4088a7;
+    border-width: 1px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+}
+
+textarea:focus{
+    border: none;
+}
+
+
+.sendMessageButton{
+    font-family: 'Comfortaa';
+    font-size: 17px;
+    background-color:transparent;
+    color: #4088a7;
+    font-weight: 600;
+    border:solid;
+    border-color: #4088a7;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.sendMessageButton:hover{
+    color:#4088a7;
+    cursor: pointer;
+    background-color: rgba(185, 206, 250, 0.388);
+    justify-self: center;
+}

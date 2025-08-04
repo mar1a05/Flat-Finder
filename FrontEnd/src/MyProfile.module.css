@@ -1,0 +1,210 @@
+.profileDiv{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    align-self: center;
+    height: 80vh;
+
+}
+
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    gap: 7%;
+
+}
+
+.updateInputDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.updateInput{
+    width: 50%;
+}
+
+::placeholder {
+    color: #4088a7;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+input[type=date]::-webkit-datetime-edit {
+    color: transparent;
+    font-family: 'Comfortaa';
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: #4088a7 ;
+    font-size: 24px;
+}
+
+input[type=text]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=password]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=date]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+    height:26px;
+}
+
+.updateInput{
+    border: none;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    width: 70%;
+    color: #4088a7;
+    background-color: transparent;
+    border-bottom: solid;
+    border-color: #4088a7;
+    border-width: 2px;
+    height:26px;
+
+
+}
+
+.updateInputDiv > p{
+    font-family: 'Comfortaa';
+    width: 70%;
+    text-align: center;
+}
+
+.updateButton{
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    background-color:transparent;
+    color: #4088a7;
+    font-weight: 600;
+    border:solid;
+    border-color: #4088a7;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.updateButton:hover{
+    color:#4088a7;
+    cursor: pointer;
+    background-color: rgba(185, 206, 250, 0.388);
+    justify-self: center;
+}
+
+.profileError{
+    color: red;
+    font-size: 17px;
+    /* display: block; */
+
+}
+
+@media (max-width: 958px){
+    .profileCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 100%;
+        gap: 7%;
+    
+    }
+
+}
+
+
+@media (max-width: 724px){
+    .profileCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 80%;
+        gap: 7%;
+    
+    }
+
+
+    .updateInput{
+        border: none;
+        font-size: 17px;
+        font-family: 'Comfortaa';
+        width: 70%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    
+    
+    }
+    
+    .updateInputDiv > p{
+        font-family: 'Comfortaa';
+        width: 70%;
+        text-align: center;
+    }
+    
+    .updateButton{
+        font-family: 'Comfortaa';
+        font-size: 22px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 2px;
+        width: 80%;
+        margin-top: 10%;
+    }
+    
+}
+
+@media (max-width: 490px){
+    .updateInput{
+        border: none;
+        font-size: 15px;
+        font-family: 'Comfortaa';
+        width: 70%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    
+    
+    }
+
+    .profileCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 80%;
+        gap: 7%;
+    
+    }
+}
+

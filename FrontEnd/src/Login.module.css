@@ -1,0 +1,983 @@
+.loginBody{
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url(../images/backgrounds/register.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.loginError{
+    color: red;
+    font-size: 17px;
+}
+
+.loginHeader{
+    height:20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    color: #2c6f7e;
+
+}
+
+.loginLogo{
+    scale: 0.6;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 20px rgba(185, 206, 250, 0.384) inset;
+}
+
+input{
+    font-family: 'Comfortaa';
+    font-weight: 600;
+    background-color: rgba(185, 206, 250, 0.388);
+}
+
+::placeholder {
+    color: #4088a7;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+input[type=text]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=password]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+.loginCard{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-size: 20px;
+    width: 17%;
+    font-family: 'Comfortaa';
+    height: 55%;
+    margin: auto;
+}
+
+.loginButton{
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    background-color:transparent;
+    color: #4088a7;
+    font-weight: 600;
+    border:solid;
+    border-color: #4088a7;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.loginButton:hover{
+    color:#4088a7;
+    cursor: pointer;
+    background-color: rgba(185, 206, 250, 0.388);
+    justify-self: center;
+}
+
+.signUpDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1f5d77;
+    font-size: 20px;
+    width: fit-content;
+    
+}
+
+.loginInput{
+    border: none;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    width: 100%;
+    color: #4088a7;
+    background-color: transparent;
+    border-bottom: solid;
+    border-color: #4088a7;
+    border-width: 2px;
+    height:26px;
+
+}
+
+
+@media (max-width: 1608px){
+
+    .loginHeader{
+        height:20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 50px;
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.8;
+    }
+
+    .loginError{
+        color: red;
+        font-size: 15px;
+    }
+    
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 20px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 20%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 2px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 17px;
+        
+    }
+}
+
+@media (max-width: 1335px){
+
+    .loginHeader{
+        height:20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 45px;
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.65;
+    }
+
+    .loginError{
+        color: red;
+        font-size: 15px;
+    }
+    
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 20px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 20%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    #loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 2px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 17px;
+        
+    }
+}
+
+@media (max-width: 1113px){
+
+
+    .loginHeader{
+        height:20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 42px;
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.6;
+    }
+    .loginError{
+        color: red;
+        font-size: 15px;
+    }    
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 20px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 25%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 2px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 17px;
+        
+    }
+}
+
+
+@media (max-width: 1046px){
+
+    .loginHeader{
+        height:20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 43px;
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.55;
+    }
+
+    .loginError{
+        color: red;
+        font-size: 15px;
+    }    
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 20px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 2px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 25%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 2px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 17px;
+        
+    }
+}
+
+
+@media (max-width: 890px){
+
+    .loginHeader{
+        height:10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 37px;
+        font-family: 'Comfortaa';
+        font-weight: 600;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.45;
+    }
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 29%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 757px){
+
+    .loginHeader{
+        height:10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 45px;
+        font-family: 'Comfortaa';
+        font-weight: 600;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.55;
+        width: 30%;
+    }
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 33%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+@media (max-width: 666px){
+
+    .loginHeader{
+        height:10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 37px;
+        font-family: 'Comfortaa';
+        font-weight: 600;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.45;
+    }
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 39%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 563px){
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 43%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 512px){
+
+    .loginHeader{
+        height:10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        font-size: 37px;
+        font-family: 'Comfortaa';
+        font-weight: 600;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.;
+        width: 30%;
+    }
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 47%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    #signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 467px){
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 50%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+
+@media (max-width: 419px){
+
+    .loginHeader{
+        height:10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        font-size: 30px;
+        font-family: 'Comfortaa';
+        font-weight: 600;
+        color: #2c6f7e;
+    
+    }
+    .loginLogo{
+        scale: 0.55;
+        width:40%;
+    }
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 55%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}
+
+@media (max-width: 375px) and (max-height:667px){
+
+    ::placeholder {
+        color: #4088a7;
+        font-weight: 530;
+        font-size: 18px;
+    }
+    .loginInput{
+        border: none;
+        font-size: 20px;
+        font-family: 'Comfortaa';
+        width: 100%;
+        color: #4088a7;
+        background-color: transparent;
+        border-bottom: solid;
+        border-color: #4088a7;
+        border-width: 1px;
+        height:26px;
+    }
+
+    .loginCard{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+        width: 59%;
+        font-family: 'Comfortaa';
+        height: 70%;
+    
+    }
+
+    .loginButton{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 530;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        width: 80%;
+    }
+
+    .signUpDiv{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1f5d77;
+        font-size: 15px;
+        
+    }
+}

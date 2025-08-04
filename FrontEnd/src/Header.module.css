@@ -1,0 +1,206 @@
+
+.header{
+    display: flex;
+    background: linear-gradient(#b2e9fa, transparent);
+    justify-content: space-evenly;
+    align-items: center;
+    height:20%; 
+    font-family: 'Comfortaa';
+}
+
+.header > img{
+    width: 4%;
+}
+
+.headerButton{
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    padding: 7px;
+    background-color:transparent;
+    color: #4088a7;
+    font-weight: 600;
+    border:solid;
+    border-color: #4088a7;
+    border-radius: 30px;
+    border-width: 1px;
+    cursor: pointer;
+    /* width: 80%; */
+    /* margin-top: 10%;  */
+}
+
+.headerButton:hover{
+
+    background-color: #9dd6ee;
+}
+
+.deleteAccButton{
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    padding: 7px;
+    background-color:transparent;
+    color: #e72020;
+    font-weight: 600;
+    border:solid;
+    border-color: #e72020;
+    border-radius: 30px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.userAndWelcomeMessage
+{
+    height:100%;
+    width: fit-content;
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 1%;
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: 'Comfortaa';
+
+}
+
+
+
+@media (max-width: 869px) {
+    .headerButton{
+        font-family: 'Comfortaa';
+        font-size: 11px;
+        padding: 7px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        cursor: pointer;
+        /* width: 80%; */
+        /* margin-top: 10%;  */
+    }
+
+    
+    .deleteAccButton{
+        font-family: 'Comfortaa';
+        font-size: 11px;
+        padding: 7px;
+        background-color:transparent;
+        color: #e72020;
+        font-weight: 600;
+        border:solid;
+        border-color: #e72020;
+        border-radius: 30px;
+        border-width: 1px;
+        cursor: pointer;
+    }
+
+    .userAndWelcomeMessage
+    {
+        height:100%;
+        width: fit-content;
+        display:flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-right: 1%;
+        font-size: 11px;
+        justify-content: space-between;
+        font-family: 'Comfortaa';
+
+    }
+}
+
+@media (max-width: 707px) {
+    .headerButton{
+        font-family: 'Comfortaa';
+        font-size: 9px;
+        padding: 5px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:solid;
+        border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px;
+        cursor: pointer;
+        /* width: 80%; */
+        /* margin-top: 10%;  */
+    }
+
+    
+    .deleteAccButton{
+        font-family: 'Comfortaa';
+        font-size: 9px;
+        padding: 5px;
+        background-color:transparent;
+        color: #e72020;
+        font-weight: 600;
+        border:solid;
+        border-color: #e72020;
+        border-radius: 30px;
+        border-width: 1px;
+        cursor: pointer;
+    }
+
+    .userAndWelcomeMessage
+    {
+        height:100%;
+        width: fit-content;
+        display:flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-right: 1%;
+        font-size: 11px;
+        justify-content: space-between;
+        font-family: 'Comfortaa';
+
+    }
+}
+
+@media (max-width: 593px) {
+    .headerButton{
+        font-family: 'Comfortaa';
+        font-size: 9px;
+        padding: 5px;
+        background-color:transparent;
+        color: #4088a7;
+        font-weight: 600;
+        border:none;
+        /* border-color: #4088a7;
+        border-radius: 30px;
+        border-width: 1px; */
+        cursor: pointer;
+        /* width: 80%; */
+        /* margin-top: 10%;  */
+    }
+
+    
+    .deleteAccButton{
+        font-family: 'Comfortaa';
+        font-size: 9px;
+        padding: 5px;
+        background-color:transparent;
+        color: #e72020;
+        font-weight: 600;
+        border:none;
+        /* border-color: #e72020;
+        border-radius: 30px;
+        border-width: 1px; */
+        cursor: pointer;
+    }
+
+    .userAndWelcomeMessage
+    {
+        height:100%;
+        width: fit-content;
+        display:flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-right: 1%;
+        font-size: 11px;
+        justify-content: space-between;
+        font-family: 'Comfortaa';
+
+    }
+}
+

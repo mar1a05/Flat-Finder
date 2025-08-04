@@ -1,0 +1,147 @@
+.editFlatDiv{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.editFlatCard{
+    display:flex;
+    flex-direction: column;
+    /* align-self: center; */
+    align-items: center;
+    justify-content: space-between;
+    /* justify-items: center; */
+    font-size: 20px;
+    width: 25%;
+    font-family: 'Comfortaa';
+    height: 55%;
+
+    margin: auto;
+}
+
+input{
+    font-family: 'Comfortaa';
+    font-weight: 600;
+    background-color: rgba(185, 206, 250, 0.388);
+}
+
+::placeholder {
+    color: #4088a7;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+input[type=date]::-webkit-datetime-edit {
+    color: transparent;
+    font-family: 'Comfortaa';
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: #4088a7 ;
+    font-size: 24px;
+}
+
+input[type=text]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=number]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=password]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+}
+
+input[type=date]:focus{
+    outline: none;
+    background-color: rgba(185, 206, 250, 0.388);
+    border-radius: 6px;
+    height:26px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 20px rgba(185, 206, 250, 0.384) inset;
+}
+
+.editFlatError{
+    color: red;
+    font-size: 17px;
+    display: block;
+    width: 80%;
+    /* margin: 0 auto; */
+}
+
+.editFlatInputDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.editFlatInputDiv > p{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    color: #4088a7;
+    font-weight: 600;
+
+}
+
+.editFlatInput{
+    border: none;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    width: 70%;
+    color: #4088a7;
+    background-color: transparent;
+    border-bottom: solid;
+    border-color: #4088a7;
+    border-width: 2px;
+    height:26px;
+
+}
+
+
+.editFlatButton
+{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    background-color:transparent;
+    color: #4088a7;
+    font-weight: 600;
+    border:solid;
+    border-color: #4088a7;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 60%;
+    margin-top: 10%;
+}
+
+@media (max-width: 1035px){
+    .editFlatCard{
+        display:flex;
+        flex-direction: column;
+        /* align-self: center; */
+        align-items: center;
+        justify-content: space-between;
+        /* justify-items: center; */
+        font-size: 20px;
+        width: 60%;
+        font-family: 'Comfortaa';
+        height: 55%;
+    
+        margin: auto;
+    }
+}

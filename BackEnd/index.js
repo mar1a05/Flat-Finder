@@ -27,9 +27,6 @@ app.all("*", (request, response, next) => {
     })
 })
 
-//Creare conexiune cu Mongo DB.
-//const uri = "mongodb+srv://muresanadnana242:ycAFFhHFm61Zgpq7@cluster0.xyeay.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
 //Creare conexiune MongoDB cu Mongoose
 mongoose.connect(process.env.CONN_STR)
     .then((succes) => {
